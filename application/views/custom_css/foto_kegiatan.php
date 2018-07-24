@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?=base_url(); ?>assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">    
+<link rel="stylesheet" href="<?=base_url(); ?>assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">

@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<?=base_url(); ?>assets/plugins/revolution-slider/rs-plugin/css/settings.css" type="text/css" media="screen">

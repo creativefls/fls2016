@@ -1,0 +1,227 @@
+/* Add here all your css styles (customizations) */
+
+html{
+  font-family: 'Nunito', sans-serif;
+}
+/*Panel Green*/
+.panel-green {
+   border-color: #3498db; /*change to dark blue*/
+}
+
+.panel-green > .panel-heading {
+   background: #3498db;
+}
+
+.panel-u {
+   border-color: #3498db;
+}
+
+.panel-u > .panel-heading {
+   background: #3498db;
+}
+
+a{
+	color: #3498db;
+}
+
+a:hover{
+	color: #3498db;
+}
+
+/* navbar */
+/*Navbar Menu*/
+.header .navbar-default .navbar-nav > li:hover > a {
+        color: #3498db;
+        border-top: solid 2px #3498db;
+    }
+
+.header .dropdown-menu .active > a,
+	.header .dropdown-menu li > a:hover {
+		color: #fff;
+		filter: none !important;
+		background: #3498db !important;
+	}
+
+ .header .navbar-toggle {
+ 	background-color: #3498db;
+	border-color: #3498db;
+ }
+
+ .header .navbar-toggle > button:hover{
+ 	background-color: #3498db;
+	border-color: #3498db;
+ }
+/*togle menu*/
+
+/*button*/
+.btn-u {
+	background: #3498db;
+}
+
+.btn-u:hover {
+	background: #3498db;
+}
+
+
+.service .service-icon{
+	color: #3498db;
+}
+
+/* Heading */
+.headline h2, 
+.headline h3, 
+.headline h4 {
+  	border-bottom:2px solid #3498db;
+	/*border-bottom:none;*/
+}
+
+/*pagination*/
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus {
+   border-color: #3498db;
+   background-color: #3498db;
+}
+
+.footer-v1 .footer {
+    background: #3498db;
+}
+.footer-v1 .link-list li {
+    border-top: none;
+}
+
+.footer-v1 .footer .headline h2{
+    border-bottom: none;
+}
+.link-list li {
+    border-top: none;
+}
+
+/*blockquote*/
+blockquote:hover,
+blockquote.text-right:hover {
+  border-color: #3498db;
+}
+.topbar-v1 {
+    border-top: 0px solid #F0F0F0;
+    border-bottom: 0px solid #F0F0F0;
+}
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*404 Error Page v1 
+------------------------------------*/
+.error-v1 {
+  padding-bottom: 30px;
+  text-align: center; 
+}
+
+.error-v1 p {
+  color: #555;
+  font-size: 16px;
+}
+
+.error-v1 span {
+  color: #555;
+  display: block;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.error-v1 span.error-v1-title {
+  color: #777;  
+  font-size: 180px;
+  line-height: 200px;
+  padding-bottom: 20px;
+}
+
+/*For Mobile Devices*/
+@media (max-width: 500px) { 
+  .error-v1 p {
+    font-size: 12px;
+  } 
+
+  .error-v1 span {
+    font-size: 25px;
+  }
+
+  .error-v1 span.error-v1-title {
+    font-size: 140px;
+  }
+}
+
+@media (min-width: 990px){
+  .tp-banner-container{
+    margin-top: 100px;
+  }
+
+  .breadcrumbs{
+    /*margin-top: 100px;*/
+  }
+}
+
+/*room*/
+.bg-e:hover{
+  border: 2px solid #27ae60;
+  border-radius: 12px;
+}
+.bg-dm:hover{
+  border: 2px solid #2980b9;
+  border-radius: 12px;  
+}
+.bg-ed:hover{
+  border: 2px solid #e74c3c;
+  border-radius: 12px;  
+}
+.bg-ia:hover{
+  border: 2px solid #3498db;
+  border-radius: 12px;  
+}
+.bg-pc:hover{
+  border: 2px solid #d35400;
+  border-radius: 12px;  
+}
+.bg-s:hover{
+  border: 2px solid #f39c12;
+  border-radius: 12px;  
+}
+
+.bg-blog{
+  background-color: #2980b9;
+  color: #fff;
+}
+.bg-pembicara{
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.bg-blog2{
+  background-color: #e11c24;
+}
+
+.btn-fls-k{
+
+}
+
+.btn-fls-b{
+
+}
+
+.tputih{
+  color: #f2f2f2;
+}
+
+.gambar-sosmed{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 45px;
+}
